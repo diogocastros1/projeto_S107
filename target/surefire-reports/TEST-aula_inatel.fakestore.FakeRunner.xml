@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="aula_inatel.fakestore.FakeRunner" time="14.639" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="aula_inatel.fakestore.FakeRunner" time="18.208" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="BR"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/inajaha/Área de Trabalho/S107/projeto_S107/target/surefire/surefirebooter7436412591450687470.jar /home/inajaha/Área de Trabalho/S107/projeto_S107/target/surefire 2023-10-08T10-28-11_107-jvmRun1 surefire4444268407815049772tmp surefire_013381114408366859221tmp"/>
+    <property name="sun.java.command" value="/home/inajaha/Área de Trabalho/S107/projeto_S107/target/surefire/surefirebooter14705569657363941755.jar /home/inajaha/Área de Trabalho/S107/projeto_S107/target/surefire 2023-10-08T12-04-44_723-jvmRun1 surefire11570996062533100336tmp surefire_04686090238945593628tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="FakeRunner"/>
     <property name="surefire.test.class.path" value="/home/inajaha/Área de Trabalho/S107/projeto_S107/target/test-classes:/home/inajaha/Área de Trabalho/S107/projeto_S107/target/classes:/home/inajaha/.m2/repository/com/intuit/karate/karate-junit5/1.0.1/karate-junit5-1.0.1.jar:/home/inajaha/.m2/repository/com/intuit/karate/karate-core/1.0.1/karate-core-1.0.1.jar:/home/inajaha/.m2/repository/org/graalvm/js/js-scriptengine/21.0.0/js-scriptengine-21.0.0.jar:/home/inajaha/.m2/repository/org/graalvm/sdk/graal-sdk/21.0.0/graal-sdk-21.0.0.jar:/home/inajaha/.m2/repository/org/graalvm/js/js/21.0.0/js-21.0.0.jar:/home/inajaha/.m2/repository/org/graalvm/regex/regex/21.0.0/regex-21.0.0.jar:/home/inajaha/.m2/repository/org/graalvm/truffle/truffle-api/21.0.0/truffle-api-21.0.0.jar:/home/inajaha/.m2/repository/com/ibm/icu/icu4j/67.1/icu4j-67.1.jar:/home/inajaha/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/home/inajaha/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/home/inajaha/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/inajaha/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.jar:/home/inajaha/.m2/repository/com/jayway/jsonpath/json-path/2.5.0/json-path-2.5.0.jar:/home/inajaha/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar:/home/inajaha/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar:/home/inajaha/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar:/home/inajaha/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/home/inajaha/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/home/inajaha/.m2/repository/org/yaml/snakeyaml/1.27/snakeyaml-1.27.jar:/home/inajaha/.m2/repository/de/siegmar/fastcsv/1.0.4/fastcsv-1.0.4.jar:/home/inajaha/.m2/repository/info/picocli/picocli/4.5.2/picocli-4.5.2.jar:/home/inajaha/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/home/inajaha/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/inajaha/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/inajaha/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:/home/inajaha/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar:/home/inajaha/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar:"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/inajaha/Área de Trabalho/S107/projeto_S107/target/surefire/surefirebooter7436412591450687470.jar"/>
+    <property name="surefire.real.class.path" value="/home/inajaha/Área de Trabalho/S107/projeto_S107/target/surefire/surefirebooter14705569657363941755.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.20.1+1-post-Ubuntu-0ubuntu122.04"/>
     <property name="user.name" value="inajaha"/>
@@ -59,10 +59,14 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="Fake_Runner[1][1]" classname="aula_inatel.fakestore.FakeRunner" time="4.762"/>
-  <testcase name="Fake_Runner[1][2]" classname="aula_inatel.fakestore.FakeRunner" time="1.686"/>
-  <testcase name="Fake_Runner[1][3]" classname="aula_inatel.fakestore.FakeRunner" time="0.843"/>
-  <testcase name="Fake_Runner[1][4]" classname="aula_inatel.fakestore.FakeRunner" time="0.839"/>
-  <testcase name="Fake_Runner[1][5]" classname="aula_inatel.fakestore.FakeRunner" time="0.753"/>
-  <testcase name="Fake_Runner[1][6]" classname="aula_inatel.fakestore.FakeRunner" time="4.164"/>
+  <testcase name="Fake_Runner[1][1]" classname="aula_inatel.fakestore.FakeRunner" time="4.243"/>
+  <testcase name="Fake_Runner[1][2]" classname="aula_inatel.fakestore.FakeRunner" time="0.851"/>
+  <testcase name="Fake_Runner[1][3]" classname="aula_inatel.fakestore.FakeRunner" time="1.254"/>
+  <testcase name="Fake_Runner[1][4]" classname="aula_inatel.fakestore.FakeRunner" time="0.844"/>
+  <testcase name="Fake_Runner[1][5]" classname="aula_inatel.fakestore.FakeRunner" time="1.257"/>
+  <testcase name="Fake_Runner[1][6]" classname="aula_inatel.fakestore.FakeRunner" time="0.624"/>
+  <testcase name="Fake_Runner[1][7]" classname="aula_inatel.fakestore.FakeRunner" time="1.215"/>
+  <testcase name="Fake_Runner[1][8]" classname="aula_inatel.fakestore.FakeRunner" time="0.768"/>
+  <testcase name="Fake_Runner[1][9]" classname="aula_inatel.fakestore.FakeRunner" time="1.297"/>
+  <testcase name="Fake_Runner[1][10]" classname="aula_inatel.fakestore.FakeRunner" time="4.155"/>
 </testsuite>
