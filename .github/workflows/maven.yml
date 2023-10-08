@@ -35,23 +35,23 @@ jobs:
           name: relatorio-testes
           path: /target/karate-reports
 
-empacotar:
-  needs: test
-  runs-on: ubuntu-latest
+  empacotar:
+    needs: test
+    runs-on: ubuntu-latest
 
-  steps:
-    - uses: actions/checkout@v3
-    - name: Set up JDK 17
-      uses: actions/setup-java@v3
-      with:
-        java-version: "17"
-        distribution: "temurin"
-        cache: maven
-    - name: Build com maven
-      run: mvn clean install
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up JDK 17
+        uses: actions/setup-java@v3
+        with:
+          java-version: "17"
+          distribution: "temurin"
+          cache: maven
+      - name: Build com maven
+        run: mvn clean install
 
-    - name: Upload de artefatos
-      uses: actions/upload-artifact@v3
-      with:
-        name: jar
-        path: target/karate-reports/
+      - name: Upload de artefatos
+        uses: actions/upload-artifact@v3
+        with:
+          name: jar
+          path: target/karate-reports/
