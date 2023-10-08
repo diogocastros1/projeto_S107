@@ -28,3 +28,9 @@ jobs:
           cache: maven
       - name: Testes Api Fakestore
         run: mvn test -Dtest=FakeRunner
+
+      - name: Upload de artefatos
+        uses: actions/upload-artifact@v3
+        with:
+          name: relatorio-testes
+          path: /target/karate-reports
