@@ -43,7 +43,7 @@ jobs:
     needs: empacotar
     runs-on: ubuntu-latest
     env:
-      EMAIL_LIST: 'inajahacostav@gmail.com;diogocastros@gmail.com'
+      EMAIL_LIST: 'inajahacostav@gmail.com;diogoacastros@gmail.com'
     steps:
     - name: Executa comandos
       uses: actions/checkout@v3
