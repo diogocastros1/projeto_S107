@@ -33,7 +33,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: relatorio-testes
-          path: /target/karate-reports
+          path: /target/karate-reports/
 
   empacotar:
     needs: test
