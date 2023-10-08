@@ -49,3 +49,13 @@ jobs:
         with:
           name: jar
           path: target/karate-reports/
+
+  notificacao:
+
+    runs-on: ubuntu-latest
+    env:
+      EMAIL_LIST: 'diogoantonio@ges.inatel.br;inajaha.costa@ges.inatel.br'
+    steps:
+    - name: Executa comandos
+      uses: actions/checkout@v3
+    - run: sh scripts/shell.sh
