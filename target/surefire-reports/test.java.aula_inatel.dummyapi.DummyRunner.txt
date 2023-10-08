@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: test.java.aula_inatel.dummyapi.DummyRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.494 s <<< FAILURE! - in test.java.aula_inatel.dummyapi.DummyRunner
+Dummy_Runner  Time elapsed: 1.489 s  <<< ERROR!
+java.lang.RuntimeException: not found: test/java/aula_inatel/dummyapi/dummyapi.feature
+

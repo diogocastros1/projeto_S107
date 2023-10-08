@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: aula_inatel.dummyapi.DummyRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 8.354 s <<< FAILURE! - in aula_inatel.dummyapi.DummyRunner
+Dummy_Runner[1][1]  Time elapsed: 6.544 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+status code was: 403, expected: 200, response time in milliseconds: 796, url: https://dummyapi.io/data/v1/user, response: 
+{"error":"APP_ID_MISSING"}
+classpath:aula_inatel/dummyapi/dummyapi.feature:10
+

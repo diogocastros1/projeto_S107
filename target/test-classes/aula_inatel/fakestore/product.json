@@ -1,0 +1,11 @@
+{
+    "title": "Teste",
+    "price": 33.33,
+    "description": "Descrição teste",
+    "category": "Teste",
+    "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+    "rating": {
+        "rate": 2.9,
+        "count": 340
+    }
+}

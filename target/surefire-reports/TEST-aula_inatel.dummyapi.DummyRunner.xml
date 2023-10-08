@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="aula_inatel.dummyapi.DummyRunner" time="8.354" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Codigos\S206-L1-QA\aula_karate\target\test-classes;D:\Codigos\S206-L1-QA\aula_karate\target\classes;C:\Users\Diogo Castro\.m2\repository\com\intuit\karate\karate-junit5\1.0.1\karate-junit5-1.0.1.jar;C:\Users\Diogo Castro\.m2\repository\com\intuit\karate\karate-core\1.0.1\karate-core-1.0.1.jar;C:\Users\Diogo Castro\.m2\repository\org\graalvm\js\js-scriptengine\21.0.0\js-scriptengine-21.0.0.jar;C:\Users\Diogo Castro\.m2\repository\org\graalvm\sdk\graal-sdk\21.0.0\graal-sdk-21.0.0.jar;C:\Users\Diogo Castro\.m2\repository\org\graalvm\js\js\21.0.0\js-21.0.0.jar;C:\Users\Diogo Castro\.m2\repository\org\graalvm\regex\regex\21.0.0\regex-21.0.0.jar;C:\Users\Diogo Castro\.m2\repository\org\graalvm\truffle\truffle-api\21.0.0\truffle-api-21.0.0.jar;C:\Users\Diogo Castro\.m2\repository\com\ibm\icu\icu4j\67.1\icu4j-67.1.jar;C:\Users\Diogo Castro\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\Diogo Castro\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\Diogo Castro\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Diogo Castro\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\Diogo Castro\.m2\repository\com\jayway\jsonpath\json-path\2.5.0\json-path-2.5.0.jar;C:\Users\Diogo Castro\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\Diogo Castro\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\Diogo Castro\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\Diogo Castro\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\Diogo Castro\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\Diogo Castro\.m2\repository\org\yaml\snakeyaml\1.27\snakeyaml-1.27.jar;C:\Users\Diogo Castro\.m2\repository\de\siegmar\fastcsv\1.0.4\fastcsv-1.0.4.jar;C:\Users\Diogo Castro\.m2\repository\info\picocli\picocli\4.5.2\picocli-4.5.2.jar;C:\Users\Diogo Castro\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\Diogo Castro\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Diogo Castro\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Diogo Castro\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\Diogo Castro\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\Diogo Castro\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\DIOGOC~1\AppData\Local\Temp\surefire13587196108725092674\surefirebooter13987403313737619765.jar C:\Users\Diogo Castro\AppData\Local\Temp\surefire13587196108725092674 2023-06-01T20-23-14_753-jvmRun1 surefire6775581003050759478tmp surefire_011911031838915094820tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="DummyRunner"/>
+    <property name="surefire.test.class.path" value="D:\Codigos\S206-L1-QA\aula_karate\target\test-classes;D:\Codigos\S206-L1-QA\aula_karate\target\classes;C:\Users\Diogo Castro\.m2\repository\com\intuit\karate\karate-junit5\1.0.1\karate-junit5-1.0.1.jar;C:\Users\Diogo Castro\.m2\repository\com\intuit\karate\karate-core\1.0.1\karate-core-1.0.1.jar;C:\Users\Diogo Castro\.m2\repository\org\graalvm\js\js-scriptengine\21.0.0\js-scriptengine-21.0.0.jar;C:\Users\Diogo Castro\.m2\repository\org\graalvm\sdk\graal-sdk\21.0.0\graal-sdk-21.0.0.jar;C:\Users\Diogo Castro\.m2\repository\org\graalvm\js\js\21.0.0\js-21.0.0.jar;C:\Users\Diogo Castro\.m2\repository\org\graalvm\regex\regex\21.0.0\regex-21.0.0.jar;C:\Users\Diogo Castro\.m2\repository\org\graalvm\truffle\truffle-api\21.0.0\truffle-api-21.0.0.jar;C:\Users\Diogo Castro\.m2\repository\com\ibm\icu\icu4j\67.1\icu4j-67.1.jar;C:\Users\Diogo Castro\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\Diogo Castro\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\Diogo Castro\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Diogo Castro\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\Diogo Castro\.m2\repository\com\jayway\jsonpath\json-path\2.5.0\json-path-2.5.0.jar;C:\Users\Diogo Castro\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\Diogo Castro\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\Diogo Castro\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\Diogo Castro\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\Diogo Castro\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\Diogo Castro\.m2\repository\org\yaml\snakeyaml\1.27\snakeyaml-1.27.jar;C:\Users\Diogo Castro\.m2\repository\de\siegmar\fastcsv\1.0.4\fastcsv-1.0.4.jar;C:\Users\Diogo Castro\.m2\repository\info\picocli\picocli\4.5.2\picocli-4.5.2.jar;C:\Users\Diogo Castro\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\Diogo Castro\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Diogo Castro\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Diogo Castro\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\Diogo Castro\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\Diogo Castro\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Diogo Castro"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Codigos\S206-L1-QA\aula_karate"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\DIOGOC~1\AppData\Local\Temp\surefire13587196108725092674\surefirebooter13987403313737619765.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.6+9-LTS-190"/>
+    <property name="user.name" value="Diogo Castro"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Diogo Castro\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\DIOGOC~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.6"/>
+    <property name="user.dir" value="D:\Codigos\S206-L1-QA\aula_karate"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Microsoft\jdk-11.0.18.10-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Falcon\MinGW\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Programas\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\dotnet\;D:\Program Files\PuTTY\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Users\Diogo Castro\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Diogo Castro\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Diogo Castro\AppData\Local\Programs\Python\Python310\;C:\Users\Diogo Castro\AppData\Local\Programs\Eclipse Foundation\jdk-11.0.12.7-hotspot\bin;C:\Users\Diogo Castro\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-17;D:\Program Files\Maven\apache-maven-3.8.2\bin;C:\Users\Diogo Castro\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Diogo Castro\AppData\Roaming\npm;C:\Users\Diogo Castro\AppData\Local\Android\Sdk\platform-tools;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.6+9-LTS-190"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Dummy_Runner[1][1]" classname="aula_inatel.dummyapi.DummyRunner" time="6.544">
+    <failure message="status code was: 403, expected: 200, response time in milliseconds: 796, url: https://dummyapi.io/data/v1/user, response: &#10;{&quot;error&quot;:&quot;APP_ID_MISSING&quot;}&#10;classpath:aula_inatel/dummyapi/dummyapi.feature:10" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: 
+status code was: 403, expected: 200, response time in milliseconds: 796, url: https://dummyapi.io/data/v1/user, response: 
+{"error":"APP_ID_MISSING"}
+classpath:aula_inatel/dummyapi/dummyapi.feature:10
+</failure>
+    <system-out><![CDATA[20:23:19.197 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:23:21.722 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:23:22.507 [main] DEBUG com.intuit.karate - request:
+1 > GET https://dummyapi.io/data/v1/user
+1 > Host: dummyapi.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+
+
+20:23:23.367 [main] DEBUG com.intuit.karate - response time in milliseconds: 796
+1 < 403
+1 < Connection: keep-alive
+1 < Content-Length: 26
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Etag: W/"1a-ugpWdOPzt4M+BnYwzBk9ABBdkQU"
+1 < Function-Execution-Id: yy4w1tr41d77
+1 < Server: Google Frontend
+1 < X-Cloud-Trace-Context: faa3c4f7a0936e513d6630b91b724b48;o=1
+1 < Accept-Ranges: bytes
+1 < Date: Thu, 01 Jun 2023 23:23:23 GMT
+1 < X-Served-By: cache-gru-sbgr1930057-GRU
+1 < X-Cache: MISS
+1 < X-Cache-Hits: 0
+1 < X-Timer: S1685661803.963981,VS0,VE342
+1 < Vary: x-fh-requested-host, accept-encoding
+1 < alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+{"error":"APP_ID_MISSING"}
+20:23:23.384 [main] ERROR com.intuit.karate - classpath:aula_inatel/dummyapi/dummyapi.feature:10
+Then status 200
+status code was: 403, expected: 200, response time in milliseconds: 796, url: https://dummyapi.io/data/v1/user, response: 
+{"error":"APP_ID_MISSING"}
+classpath:aula_inatel/dummyapi/dummyapi.feature:10
+---------------------------------------------------------
+feature: classpath:aula_inatel/dummyapi/dummyapi.feature
+scenarios:  1 | passed:  0 | failed:  1 | time: 1,5306
+---------------------------------------------------------
+
+Karate version: 1.0.1
+======================================================
+elapsed:   6,01 | threads:    1 | thread time: 1,53 
+features:     1 | skipped:    0 | efficiency: 0,25
+scenarios:    1 | passed:     0 | failed: 1
+======================================================
+>>> failed features:
+status code was: 403, expected: 200, response time in milliseconds: 796, url: https://dummyapi.io/data/v1/user, response: 
+{"error":"APP_ID_MISSING"}
+classpath:aula_inatel/dummyapi/dummyapi.feature:10
+<<<
+
+HTML report: (paste into browser to view) | Karate version: 1.0.1
+file:///D:/Codigos/S206-L1-QA/aula_karate/target/karate-reports/karate-summary.html
+===================================================================
+
+]]></system-out>
+  </testcase>
+</testsuite>

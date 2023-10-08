@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"aula_inatel\/fakestore\/fakestore[1:8]","start":1685665990562,"end":1685665992866,"title":"aula_inatel\/fakestore\/fakestore[1:8] 21:33:10.562-21:33:12.866 Validando lista de produtos"},{"id":2,"group":1,"content":"aula_inatel\/fakestore\/fakestore[2:13]","start":1685665992940,"end":1685665993630,"title":"aula_inatel\/fakestore\/fakestore[2:13] 21:33:12.940-21:33:13.630 Buscando por lista inexistente"},{"id":3,"group":1,"content":"aula_inatel\/fakestore\/fakestore[3:18]","start":1685665993651,"end":1685665995076,"title":"aula_inatel\/fakestore\/fakestore[3:18] 21:33:13.651-21:33:15.076 Buscando um produto da lista e comparando o preço"},{"id":4,"group":1,"content":"aula_inatel\/fakestore\/fakestore[4:24]","start":1685665995097,"end":1685665995911,"title":"aula_inatel\/fakestore\/fakestore[4:24] 21:33:15.097-21:33:15.911 Inserindo novo produto e comparando seu preço"},{"id":5,"group":1,"content":"aula_inatel\/fakestore\/fakestore[5:31]","start":1685665995928,"end":1685665996626,"title":"aula_inatel\/fakestore\/fakestore[5:31] 21:33:15.928-21:33:16.626 Atualizando o preço do produto 2 e comparando o retorno preço"},{"id":6,"group":1,"content":"aula_inatel\/fakestore\/fakestore[6:38]","start":1685665996644,"end":1685665997470,"title":"aula_inatel\/fakestore\/fakestore[6:38] 21:33:16.644-21:33:17.470 Deletando produto 2"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

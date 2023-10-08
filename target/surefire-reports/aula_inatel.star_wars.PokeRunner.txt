@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: aula_inatel.star_wars.PokeRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.632 s <<< FAILURE! - in aula_inatel.star_wars.PokeRunner
+testPokemon  Time elapsed: 2.621 s  <<< ERROR!
+java.lang.RuntimeException: not found: aula_inatel/star_wars/pokemon.feature
+
