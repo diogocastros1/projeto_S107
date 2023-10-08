@@ -1,12 +1,4 @@
-# This workflow will build a Java project with Maven, and cache/restore any dependencies to improve the workflow execution time
-# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-java-with-maven
-
-# This workflow uses actions that are not certified by GitHub.
-# They are provided by a third-party and are governed by
-# separate terms of service, privacy policy, and support
-# documentation.
-
-name: Java CI with Maven
+name: Testes com Karate
 
 on:
   push:
@@ -30,7 +22,6 @@ jobs:
         run: mvn test -Dtest=FakeRunner
 
   empacotar:
-    needs: test
     runs-on: ubuntu-latest
 
     steps:
@@ -49,10 +40,10 @@ jobs:
           path: target/karate-reports/
 
   notificacao:
-
+    needs: empacotar
     runs-on: ubuntu-latest
     env:
-      EMAIL_LIST: 'diogoantonio@ges.inatel.br;inajaha.costa@ges.inatel.br'
+      EMAIL_LIST: 'inajaha.costa@ges.inatel.br'
     steps:
     - name: Executa comandos
       uses: actions/checkout@v3
